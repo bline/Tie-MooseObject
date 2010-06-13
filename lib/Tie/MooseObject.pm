@@ -1,7 +1,7 @@
 use strict;
 package Tie::MooseObject;
 BEGIN {
-  $Tie::MooseObject::VERSION = '0.0001';
+  $Tie::MooseObject::VERSION = '0.0002';
 } # for Pod::Weaver
 # ABSTRACT: a tied hash interface to Moose object attributes
 
@@ -168,7 +168,7 @@ Tie::MooseObject - a tied hash interface to Moose object attributes
 
 =head1 VERSION
 
-version 0.0001
+version 0.0002
 
 =head1 SYNOPSIS
 

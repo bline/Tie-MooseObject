@@ -23,4 +23,4 @@ requires:
   MooseX::Types::Moose: 0.12
 resources:
   repository: git://github.com/bline/Tie-MooseObject.git
-version: 0.0001
+version: 0.0002
