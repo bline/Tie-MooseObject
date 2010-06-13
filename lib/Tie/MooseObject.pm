@@ -60,7 +60,7 @@ class Tie::MooseObject {
     has '_writer' => ( isa => HashRef[CodeRef], ro, lazy_build );
     has '_predicate' => ( isa => HashRef[CodeRef], ro, lazy_build );
 
-=attr is
+=attr C<is>
 
 Expects a string of either C<ro> or C<rw>, If set to C<ro>, Tie::MooseObject
 will not allow access to the C<writer> attribute methods. This means that
